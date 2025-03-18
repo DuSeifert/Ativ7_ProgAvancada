@@ -33,7 +33,7 @@ public class Main {
                 System.out.println("\nOpção de cadastro selecionada:\n");
 
                 lista.cadastrarProduto(new Produto(novoCodigo(sc), novoNome(sc), novoPreco(sc)));
-                //lista.cadastrarProduto(new Produto(codigo, nome, preco));
+
 
                 break;
             case 2:

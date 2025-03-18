@@ -19,9 +19,9 @@ public class Produto {
 
     public void exibirInfo(){
         System.out.println("{");
-        System.out.println("\tcodigo: " + codigo);
-        System.out.println("\tnome: " + nome);
-        System.out.println("\tpreco: " + preco);
+        System.out.println("\tcodigo -- " + codigo);
+        System.out.println("\tnome ---- " + nome);
+        System.out.println("\tpreco --- " + preco);
         System.out.println("}");
     }
 
