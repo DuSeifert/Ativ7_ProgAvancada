@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class ProdutoController {
 
-    ArrayList<Produto> produtos = new ArrayList<Produto>();
+    ArrayList<Produto> produtos = new ArrayList<>();
 
 
     public void cadastrarProduto(Produto produto) {
@@ -15,6 +15,7 @@ public class ProdutoController {
         for (Produto p : produtos) {
             if (p.getCodigo() == produto.getCodigo()) {
                 jaExiste = true;
+                break;
             }
         }
 
